@@ -24,3 +24,4 @@ stamp-h1
 libhello.la
 libtool
 m4/
+libhello.pc

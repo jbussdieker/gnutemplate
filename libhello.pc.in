@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: Hello
+Description: Hello library.
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -lhello
+Cflags: -I${includedir}/hello
