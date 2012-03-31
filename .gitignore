@@ -2,6 +2,7 @@
 .libs
 *~
 *.o
+*.lo
 missing
 ltmain.sh
 Makefile
@@ -20,3 +21,6 @@ autom4te.cache/
 config.h
 config.h.in
 stamp-h1
+libhello.la
+libtool
+

@@ -1,1 +1,1 @@
-aclocal && autoheader && automake -a && autoconf && ./configure $@
+libtoolize && aclocal && autoheader && automake -a && autoconf && ./configure $@
